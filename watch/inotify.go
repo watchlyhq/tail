@@ -10,8 +10,8 @@ import (
 
 	"github.com/watchlyhq/tail/util"
 
-	"gopkg.in/fsnotify.v1"
-	"gopkg.in/tomb.v1"
+	"github.com/fsnotify/fsnotify"
+	tomb "gopkg.in/tomb.v1"
 )
 
 // InotifyFileWatcher uses inotify to monitor file changes.

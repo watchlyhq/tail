@@ -12,7 +12,7 @@ import (
 
 	"github.com/watchlyhq/tail/util"
 
-	"gopkg.in/fsnotify.v1"
+	"github.com/fsnotify/fsnotify"
 )
 
 type InotifyTracker struct {
